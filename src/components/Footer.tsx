@@ -128,19 +128,19 @@ export default function Footer() {
           <ul className="space-y-5">
             <li className="flex items-start gap-3 text-gray-300 text-sm">
               <Icon name="location-pin" size={18} className="[&_path]:stroke-[#E85420] mt-0.5 flex-shrink-0" />
-              <span>N'Djamena, Tchad<br />Afrique Centrale</span>
+              <span>Av. Lt. Mahmout Abderrahmane Haggar<br />Rue de 30 — B.P. 7580<br />N&apos;Djamena, Tchad</span>
             </li>
-            <li className="flex items-start gap-3 text-gray-300 text-sm">
+            {/* Téléphone temporairement masqué — à réactiver avec les nouveaux numéros */}
+            {/* <li className="flex items-start gap-3 text-gray-300 text-sm">
               <Image src="/icons/phone.svg" alt="" width={18} height={18} className="flex-shrink-0 invert opacity-80 mt-0.5" />
               <div className="space-y-1">
-                <a href="tel:+23566789494" className="hover:text-[#E85420] transition-colors block">(+235) 66 78 94 94</a>
-                <a href="tel:+23599000005" className="hover:text-[#E85420] transition-colors block">(+235) 99 00 00 05</a>
+                <a href="tel:+23500000000" className="hover:text-[#E85420] transition-colors block">(+235) XX XX XX XX</a>
               </div>
-            </li>
+            </li> */}
             <li className="flex items-center gap-3 text-gray-300 text-sm">
               <Image src="/icons/mail.svg" alt="" width={18} height={18} className="flex-shrink-0 invert opacity-80" />
-              <a href="mailto:kourdafils@yahoo.com" className="hover:text-[#E85420] transition-colors break-all">
-                kourdafils@yahoo.com
+              <a href="mailto:billiekia.concept@gmail.com" className="hover:text-[#E85420] transition-colors break-all">
+                billiekia.concept@gmail.com
               </a>
             </li>
           </ul>

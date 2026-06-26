@@ -95,10 +95,11 @@ const jsonLd = {
       logo: "https://billiekia-concept.com/logo.png",
       description:
         "Cabinet de bureau d'études spécialisé en ingénierie des infrastructures au Tchad.",
-      telephone: ["+23566789494", "+23599000005"],
-      email: "kourdafils@yahoo.com",
+      email: "billiekia.concept@gmail.com",
       address: {
         "@type": "PostalAddress",
+        streetAddress: "Avenue Lieutenant Mahmout Abderrahmane Haggar, Rue de 30",
+        postalCode: "7580",
         addressLocality: "N'Djamena",
         addressCountry: "TD",
       },
@@ -109,10 +110,11 @@ const jsonLd = {
       "@id": "https://billiekia-concept.com/#localbusiness",
       name: "Billiekia Concept",
       image: "https://billiekia-concept.com/images/bc/bc-25.jpg",
-      telephone: "+23566789494",
-      email: "kourdafils@yahoo.com",
+      email: "billiekia.concept@gmail.com",
       address: {
         "@type": "PostalAddress",
+        streetAddress: "Avenue Lieutenant Mahmout Abderrahmane Haggar, Rue de 30",
+        postalCode: "7580",
         addressLocality: "N'Djamena",
         addressCountry: "TD",
       },

@@ -1,9 +1,16 @@
 "use client";
 
+// Bouton WhatsApp temporairement masqué — à réactiver avec le nouveau numéro
 export default function WhatsAppButton() {
+  return null;
+}
+
+/*
+RÉACTIVER : remplacer le corps de la fonction par :
+
   return (
     <a
-      href="https://wa.me/23566789494"
+      href="https://wa.me/235XXXXXXXX"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Écrire sur WhatsApp"
@@ -16,4 +23,4 @@ export default function WhatsAppButton() {
       </svg>
     </a>
   );
-}
+*/

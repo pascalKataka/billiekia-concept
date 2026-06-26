@@ -13,18 +13,19 @@ const infos = [
   {
     icon: "location-pin",
     title: "Adresse",
-    lines: ["N'Djamena, Tchad", "Afrique Centrale"],
+    lines: ["Av. Lt. Mahmout Abderrahmane Haggar", "Rue de 30 — B.P. 7580", "N'Djamena, Tchad"],
   },
-  {
-    icon: "phone",
-    title: "Téléphone",
-    lines: ["(+235) 66 78 94 94", "(+235) 99 00 00 05"],
-    isFile: true,
-  },
+  // Téléphone temporairement masqué — à réactiver avec les nouveaux numéros
+  // {
+  //   icon: "phone",
+  //   title: "Téléphone",
+  //   lines: ["(+235) XX XX XX XX"],
+  //   isFile: true,
+  // },
   {
     icon: "mail",
     title: "Email",
-    lines: ["kourdafils@yahoo.com"],
+    lines: ["billiekia.concept@gmail.com"],
     isFile: true,
   },
   {
