@@ -66,7 +66,7 @@ const projects = [
   },
   {
     id: 6,
-    img: "/images/bc/bc-27.jpg",
+    img: "/images/bc/bc-11.jpg",
     category: "Ingénierie",
     status: "Terminé",
     title: "Étude de faisabilité infrastructure",

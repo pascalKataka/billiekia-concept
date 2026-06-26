@@ -39,7 +39,7 @@ export default function AProposPage() {
     <div className="pt-20">
       {/* Hero */}
       <section className="relative py-36 overflow-hidden">
-        <Image src="/images/bc/bc-27.jpg" alt="Équipe Billiekia Concept" fill className="object-cover object-center" priority />
+        <Image src="/images/bc/bc-25.jpg" alt="Chantier Billiekia Concept" fill className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-[#112850]/80" />
         <div className="relative wrapper text-center text-white">
           <p className="text-[#E85420] font-semibold text-sm uppercase tracking-widest mb-4" style={{ fontFamily: "var(--font-bw)" }}>
@@ -207,7 +207,7 @@ export default function AProposPage() {
               </p>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl aspect-video relative">
-              <Image src="/images/bc/bc-27.jpg" alt="Ingénieurs Billiekia Concept" fill className="object-cover object-top" />
+              <Image src="/images/bc/bc-04.jpg" alt="Chantier Billiekia Concept" fill className="object-cover object-top" />
               <div className="absolute inset-0 bg-gradient-to-r from-[#1B3A6B]/30 to-transparent" />
             </div>
           </div>

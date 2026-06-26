@@ -107,13 +107,13 @@ export default function ContactPage() {
                 ))}
               </div>
 
-              {/* CEO info */}
+              {/* Contact direct */}
               <div className="mt-10 p-6 bg-[#F8F9FA] rounded-2xl border-l-4 border-[#E85420]">
                 <p className="text-xs uppercase tracking-widest text-[#E85420] font-bold mb-2" style={{ fontFamily: "var(--font-bw)" }}>
-                  CEO — Responsable
+                  Direction — Contact direct
                 </p>
                 <p className="font-bold text-[#1B3A6B] text-lg uppercase" style={{ fontFamily: "var(--font-bc)" }}>
-                  Abdel-Aziz Idriss Kourda
+                  Billiekia Concept
                 </p>
               </div>
             </div>

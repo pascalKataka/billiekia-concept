@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "N'Djamena",
     "Afrique Centrale",
     "APS APD",
-    "Abdel-Aziz Idriss Kourda",
+    "bureau études ingénierie Tchad",
   ],
   authors: [{ name: "Billiekia Concept" }],
   creator: "Billiekia Concept",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
       "Cabinet de bureau d'études spécialisé en ingénierie des infrastructures. Quality · Performance · Excellency",
     images: [
       {
-        url: "/images/bc/bc-27.jpg",
+        url: "/images/bc/bc-25.jpg",
         width: 1200,
         height: 630,
         alt: "Billiekia Concept — Ingénieurs sur le terrain",
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     title: "Billiekia Concept | Bureau d'Études & Ingénierie",
     description:
       "Cabinet de bureau d'études spécialisé en ingénierie des infrastructures au Tchad.",
-    images: ["/images/bc/bc-27.jpg"],
+    images: ["/images/bc/bc-25.jpg"],
   },
   robots: {
     index: true,
@@ -102,18 +102,13 @@ const jsonLd = {
         addressLocality: "N'Djamena",
         addressCountry: "TD",
       },
-      founder: {
-        "@type": "Person",
-        name: "Abdel-Aziz Idriss Kourda",
-        jobTitle: "CEO",
-      },
       sameAs: [],
     },
     {
       "@type": "LocalBusiness",
       "@id": "https://billiekia-concept.com/#localbusiness",
       name: "Billiekia Concept",
-      image: "https://billiekia-concept.com/images/bc/bc-27.jpg",
+      image: "https://billiekia-concept.com/images/bc/bc-25.jpg",
       telephone: "+23566789494",
       email: "kourdafils@yahoo.com",
       address: {
