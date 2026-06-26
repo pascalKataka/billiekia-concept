@@ -3,7 +3,7 @@ import Image from "next/image";
 import Icon from "@/components/Icon";
 
 const featureCards = [
-  { icon: "ruler", title: "Études Techniques", desc: "APS, APD, dimensionnement" },
+  { icon: "compass", title: "Études Techniques", desc: "APS, APD, dimensionnement" },
   { icon: "bar-chart", title: "Faisabilité", desc: "Diagnostic & analyse de données" },
   { icon: "hard-hat", title: "Supervision", desc: "Contrôle & suivi des travaux" },
   { icon: "leaf", title: "Impact EIES", desc: "Environnemental & Social" },
