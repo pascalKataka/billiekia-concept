@@ -2,10 +2,10 @@ import Link from "next/link";
 import Icon from "@/components/Icon";
 
 const services = [
-  { icon: "ruler", title: "Études de Faisabilité", desc: "Diagnostics techniques, études préliminaires et analyse des contraintes et opportunités pour sécuriser vos décisions d'investissement.", href: "/services#faisabilite" },
-  { icon: "map", title: "Collecte & Analyse de Données", desc: "Collecte et traitement des données techniques, économiques et géographiques nécessaires à la compréhension des enjeux de vos projets.", href: "/services#donnees" },
-  { icon: "bar-chart", title: "Conception Technique", desc: "Études APS, APD, dimensionnement technique et solutions d'ingénierie adaptées à vos besoins et à votre contexte.", href: "/services#conception" },
-  { icon: "document", title: "Assistance Maîtrise d'Ouvrage", desc: "Élaboration des dossiers techniques : cahiers des charges, CCTP, DAO, estimations financières et documents contractuels.", href: "/services#amo" },
+  { icon: "search-chart", title: "Études de Faisabilité", desc: "Diagnostics techniques, études préliminaires et analyse des contraintes et opportunités pour sécuriser vos décisions d'investissement.", href: "/services#faisabilite" },
+  { icon: "data-points", title: "Collecte & Analyse de Données", desc: "Collecte et traitement des données techniques, économiques et géographiques nécessaires à la compréhension des enjeux de vos projets.", href: "/services#donnees" },
+  { icon: "compass", title: "Conception Technique", desc: "Études APS, APD, dimensionnement technique et solutions d'ingénierie adaptées à vos besoins et à votre contexte.", href: "/services#conception" },
+  { icon: "clipboard-check", title: "Assistance Maîtrise d'Ouvrage", desc: "Élaboration des dossiers techniques : cahiers des charges, CCTP, DAO, estimations financières et documents contractuels.", href: "/services#amo" },
   { icon: "hard-hat", title: "Contrôle & Supervision", desc: "Missions de contrôle, supervision et suivi des travaux pour garantir conformité technique, qualité et respect des délais.", href: "/services#supervision" },
   { icon: "leaf", title: "Études d'Impact (EIES)", desc: "Réalisation des Études d'Impact Environnemental et Social (EIES) et plans de gestion environnementale conformes à la réglementation.", href: "/services#eies" },
 ];
