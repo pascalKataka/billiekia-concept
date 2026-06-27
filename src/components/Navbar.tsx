@@ -42,11 +42,25 @@ export default function Navbar() {
           <Image
             src={scrolled ? "/logo.png" : "/logo-white.png"}
             alt="Billiekia Concept"
-            width={160}
-            height={60}
-            className="h-12 w-auto object-contain transition-all duration-300"
+            width={48}
+            height={48}
+            className="h-11 w-auto object-contain transition-all duration-300 flex-shrink-0"
             priority
           />
+          <div className="flex flex-col leading-tight">
+            <span
+              className={`font-bold text-lg uppercase tracking-wide transition-colors duration-300 ${scrolled ? "text-[#1B3A6B]" : "text-white"}`}
+              style={{ fontFamily: "var(--font-bc, 'Barlow Condensed', sans-serif)", letterSpacing: "0.06em" }}
+            >
+              Billiekia
+            </span>
+            <span
+              className={`text-xs uppercase tracking-widest transition-colors duration-300 ${scrolled ? "text-[#E85420]" : "text-[#E85420]"}`}
+              style={{ fontFamily: "var(--font-bw, Barlow, sans-serif)", letterSpacing: "0.12em" }}
+            >
+              Concept
+            </span>
+          </div>
         </Link>
 
         {/* Desktop nav */}
