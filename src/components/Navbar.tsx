@@ -42,9 +42,9 @@ export default function Navbar() {
           <Image
             src={scrolled ? "/logo.png" : "/logo-white.png"}
             alt="Billiekia Concept"
-            width={48}
-            height={48}
-            className="h-11 w-auto object-contain transition-all duration-300 flex-shrink-0"
+            width={64}
+            height={64}
+            className="h-16 w-auto object-contain transition-all duration-300 flex-shrink-0"
             priority
           />
           <div className="flex flex-col leading-tight">
